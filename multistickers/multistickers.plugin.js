@@ -3,6 +3,7 @@
  * @description lets you send up to 3 stickers and shift click stickers
  * @version 1.0.0
  * @author void
+ * @updateurl https://raw.githubusercontent.com/voidfill/bdplugins/main/multistickers/multistickers.plugin.js
  */
 
 const stickerStore = {};
