@@ -15,7 +15,7 @@ const dispatch = BdApi.findModuleByProps("dirtyDispatch");
 const CloseExpressionPicker = BdApi.findModuleByProps("closeExpressionPicker");
 const ShouldAttachSticker = BdApi.findModuleByProps("shouldAttachSticker");
 const StickerPreview = BdApi.findModuleByProps("getStickerPreview");
-const StickerPreviewContainer = BdApi.findModule((m) => m.type?.toString().indexOf("stickerPreviewDivider") !== -1);
+const StickerPreviewContainer = BdApi.findModule((m) => m.type.toString().indexOf("stickerPreviewDivider") !== -1);
 const stickerPreviewContainerCN = BdApi.findModuleByProps("stickerPreviewContainer").stickerPreviewContainer;
 const StickerRow = BdApi.findModule((m) => m.default.type.toString().indexOf("e.isDisplayingIndividualStickers") !== -1).default;
 
